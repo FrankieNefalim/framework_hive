@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KeywordFramework" verbose="10" parallel="false"
+	thread-count="1">
+	<parameter name="deviceGroup" value="ORGANIZATION"></parameter>
+	<parameter name="screenshotSetting" value="OnAllSteps"></parameter>
+	
+	<test name="AndroidTest">
+	
+	<parameter name="testName" value="MBFISTest"></parameter>
+		<parameter name="kobitonServerUrl" value="https://sdominguez:d8aaa84c-950a-4b61-8088-7821396b299b@api.kobiton.com/wd/hub"></parameter>
+		<parameter name="app" value="kobiton-store:70086" />
+		<parameter name="deviceName" value="iPhone 8"></parameter>
+		<parameter name="platformName" value="iOS"></parameter>
+		<parameter name="platformVersion" value="13.3.1"></parameter>
+		<parameter name="env" value="MBQATESTING"></parameter>
+
+		<groups>
+			<run>
+				<include name="Smoke-iOS" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="framework.MBQAMobileKeywordFramework" />
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>

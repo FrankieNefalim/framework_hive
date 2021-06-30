@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KeywordFramework" verbose="10" parallel="tests"
+	thread-count="1">
+	<parameter name="kobitonServerUrl"
+		value="http://127.0.0.1:4723/wd/hub"></parameter>
+	<parameter name="deviceGroup" value="ORGANIZATION"></parameter>
+	<parameter name="screenshotSetting" value="OnAllSteps"></parameter>
+	<test name="AndroidTest">
+		<parameter name="testName" value="MBMTest"></parameter>
+		<parameter name="app"
+			value="C:\Users\aruske\MiBanco-debug-3.3.1-MBCA-5151.apk"></parameter>
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="deviceName" value="Nexus_6_API_30"></parameter>
+		<parameter name="platformVersion" value="10.0"></parameter>
+		<parameter name="autoGrantPermissions" value="true"></parameter>
+		<parameter name="appWaitActivity"
+			value="com.popular.android.mibanco.IntroScreen, com.popular.android.mibanco.activity.EnterUsername, com.popular.android.mibanco.activity.CampaignActivity"></parameter>
+
+		<groups>
+			<run>
+				<include name="MBCA-1477"/>
+				<include name="MBCA-1516"/>
+				<include name="MBCA-1629"/>
+				<include name="MBCA-1330"/>
+				<include name="MBCA-1591"/>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="framework.MBCAMobileKeywordFramework" />
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>

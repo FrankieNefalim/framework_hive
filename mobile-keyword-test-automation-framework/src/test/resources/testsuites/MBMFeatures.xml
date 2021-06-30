@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KeywordFramework" verbose="10" parallel="tests"
+	thread-count="2">
+	<parameter name="deviceGroup" value="ORGANIZATION"></parameter>
+	<parameter name="screenshotSetting" value="OnAllSteps"></parameter>
+	
+	<test name="AndroidTest">
+		<parameter name="kobitonServerUrl"
+			value="https://sdominguez:d8aaa84c-950a-4b61-8088-7821396b299b@api.kobiton.com/wd/hub"></parameter>
+			<parameter name="kobitonServerUrl"
+			value="http://127.0.0.1:4723/wd/hub"></parameter>
+		<parameter name="app" value="C:\Users\user\Downloads\MiBanco-please.apk"></parameter>
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="deviceName" value="emulator-5554"></parameter>
+		<parameter name="platformVersion" value="7.0"></parameter>
+
+		<parameter name="testName" value="MBMTest"></parameter>
+		<parameter name="autoGrantPermissions" value="true"></parameter>
+		<parameter name="appWaitActivity"
+			value="com.popular.android.mibanco.IntroScreen, com.popular.android.mibanco.activity.EnterUsername, com.popular.android.mibanco.activity.CampaignActivity"></parameter>
+		<parameter name="env" value="MBMTESTING"></parameter>
+
+		<groups>
+			<run>
+				<include name="regression" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="framework.MBMMobileKeywordFramework" />
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>

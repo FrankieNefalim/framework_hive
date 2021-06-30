@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KeywordFramework" verbose="10" parallel="tests" thread-count="2">
+	<parameter name="kobitonServerUrl" value="http://127.0.0.1:4723/wd/hub"></parameter>
+	<parameter name="deviceGroup" value="ORGANIZATION"></parameter>
+	<!-- <parameter name="screenshotSetting" value="OnAllSteps"></parameter>  -->
+
+
+	<test name="AndroidTest">
+		<parameter name="testName" value="MBMTest"></parameter>
+		<parameter name="app" value="C:\Users\Admin\Desktop\kosen-rufu\projects\apk\2175_fix_version_1\MiBanco-debug-3.3.1.apk"></parameter>
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="platformVersion" value="9.0"></parameter>
+		<parameter name="autoGrantPermissions" value="true"></parameter>
+		<parameter name="appWaitActivity" value="com.popular.android.mibanco.IntroScreen, com.popular.android.mibanco.activity.EnterUsername, com.popular.android.mibanco.activity.CampaignActivity"></parameter>
+
+		<groups>
+			<run>
+				<include name="MBSE-1713"/>
+
+				<!--Deprecated Tests:
+					MBSE_4_Verify_PCAS_Location
+				 	MBSE_1925_Verfy_PCAS_Notification_Center
+				 -->
+			</run>
+		</groups>
+
+		<classes>
+			<class name="framework.MBSEMobileKeywordFramework" />
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+</suite>

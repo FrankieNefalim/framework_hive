@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KeywordFramework" verbose="10" parallel="tests" thread-count="1">
+<!--	<parameter name="screenshotSetting" value="OnAllSteps"></parameter>-->
+
+	<test name="AndroidTest">
+		<!-- EMULATOR DEVICE -->
+		<parameter name="kobitonServerUrl" value="http://127.0.0.1:4723/wd/hub"></parameter>
+		<parameter name="deviceGroup" value="ORGANIZATION"></parameter>
+		<parameter name="testName" value="MiBancoMovilTest"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
+<!--		<parameter name="app" value="C:/Users/alejandro.bianchini/IdeaProjects/mi-banco/testing-automation-framework/mobile-keyword-test-automation-framework/src/test/resources/apk/MiBanco-debug-3.3.1.apk"></parameter>-->
+<!--		<parameter name="deviceName" value="Pixel 2 API 27"></parameter>-->
+		<parameter name="appWaitActivity" value=""></parameter>
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="platformVersion" value="8.1"></parameter>
+		<parameter name="autoGrantPermissions" value="true"></parameter>
+
+		<!-- KOBITON -->
+<!--
+		<parameter name="testName" value="Mi Banco Prueba Kobiton"></parameter>
+		<parameter name="kobitonServerUrl" value="https://ametidji:706e6a6b-c880-4103-b7b1-8cd80b2a79c4@api.kobiton.com/wd/hub"></parameter>
+		<parameter name="deviceGroup" value="KOBITON"></parameter>
+&lt;!&ndash;		<parameter name="app" value="com.android.chrome"></parameter>&ndash;&gt;
+		<parameter name="browserName" value="chrome"></parameter>
+		<parameter name="deviceName" value="Pixel"></parameter>
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="platformVersion" value="9"></parameter>
+
+		<parameter name="sessionName" value="Automation test session"></parameter>
+		<parameter name="sessionDescription" value=""></parameter>
+		<parameter name="groupId" value="236"></parameter>
+-->
+
+		<groups>
+			<run>
+<!--				<include name="mbsd.business.android"/>-->
+				<include name="webView"/>
+<!--				<include name="kobiton"/>-->
+				<exclude name=".*debug.*"/>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="framework.MBSDMobileKeywordFramework" />
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>

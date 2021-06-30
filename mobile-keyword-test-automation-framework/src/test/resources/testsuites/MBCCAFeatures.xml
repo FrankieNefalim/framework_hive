@@ -1,0 +1,56 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KeywordFramework" verbose="10" parallel="tests" thread-count="2">
+	<parameter name="screenshotSetting" value="OnAllSteps"></parameter>
+	<parameter name="kobitonServerUrl" value="http://127.0.0.1:4723/wd/hub"></parameter>
+	<parameter name="deviceGroup" value="ORGANIZATION"></parameter>
+
+	<test name="AndroidTest">
+
+		<parameter name="testName" value="MBCCATest"></parameter>
+		<parameter name="app" value="C:\Git\testing-automation-framework\mobile-keyword-test-automation-framework\src\test\resources\apk\MiBanco-debug-3.3.1-2020.apk"></parameter>
+		<parameter name="deviceName" value="Nexus_6P_API_29"></parameter>
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="platformVersion" value="10.0"></parameter>
+		<parameter name="autoGrantPermissions" value="true"></parameter>
+		<parameter name="appWaitActivity" value="com.popular.android.mibanco.IntroScreen,com.popular.android.mibanco.activity.EnterUsername"></parameter>
+		<groups>
+			<run>
+				<include name="MBCC-14" />
+				<include name="MBCC-16" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="framework.MBCCAMobileKeywordFramework" />
+		</classes>
+	</test>
+
+	<test name="iOSTest">
+		<!-- KOBITON -->
+		<parameter name="testName" value="MBCCATest"></parameter>
+		<parameter name="kobitonServerUrl" value="https://dany.florez:bc5e8ba9-4e30-4071-ab69-1ad50b158329@api.kobiton.com/wd/hub"></parameter>
+		<parameter name="app" value="kobiton-store:75426" />
+		<parameter name="deviceName" value="iPad Mini (5th generation Cellular)"></parameter>
+		<parameter name="platformName" value="iOS"></parameter>
+		<parameter name="platformVersion" value="13.2.2"></parameter>
+
+		<groups>
+			<run>
+
+				<include name="MBCC-13" />
+				<include name="MBCC-15" />
+				<include name="MBCC-19" />
+
+			</run>
+		</groups>
+
+		<classes>
+			<class name="framework.MBCCAMobileKeywordFramework" />
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>

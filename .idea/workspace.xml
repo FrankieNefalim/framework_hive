@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:features" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5b50a2c-2912-4a05-a70b-afa612209007" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core-keyword-test-automation-framework/src/test/resources/drivers/operadriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/HIVE_MasterFile.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/Hive/HIVEE_CreateNewOpportunity.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/Hive/HIVEE_Logout.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/Hive/HIVES_Apply.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/Hive/HIVES_Login.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/Hive/HIVES_Logout.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/Hive/HIVES_SingIn.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/HiveCreateNewOpportunity.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/HiveEmployeesLogOut.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/HiveStudentsLogIn.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/HiveStudentsLogOut.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/HivesApply.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/HivesSingIn.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-keyword-test-automation-framework/src/test/java/framework/KeywordFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-keyword-test-automation-framework/src/test/java/framework/KeywordFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-keyword-test-automation-framework/src/test/resources/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/core-keyword-test-automation-framework/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/keyword-test-automation-framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/java/framework/MBCAKeywordFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/java/framework/MBCEKeywordFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/java/framework/MBCIKeywordFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/java/framework/MBCKeywordFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/java/framework/MBDPKeywordFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/java/framework/MBDPKeywordFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/java/framework/MBFISKeywordFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/java/framework/MBFMKeywordFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/java/framework/MBMKeywordFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/java/framework/MBQAKeywordFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/java/framework/MBSDKeywordFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/java/framework/MBSEKeywordFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/MBC-MasterAccountFile.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/MBCA-MasterAccountFile.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/MBCE-MasterAccountFile.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/MBCI-MasterAccountFile.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/MBDP-MasterAccountFile.xls" beforeDir="false" afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/MBDP-MasterAccountFile.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/MBFIS-MasterAccountFile.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/MBFM-MasterAccountFile.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/MBM-MasterAccountFile.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/MBQA-MasterAccountFile.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/MBSD-MasterAccountFile.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/MBSE-MasterAccountFile.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/globalVariables.properties" beforeDir="false" afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/data/globalVariables.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/CSR/CSRChangeUserRole.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/CSR/CSRDeleteRSAQuestions.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/CSR/CSRLogin.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/CSR/CSRSearchClientByAccountNumber.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/CSR/CSRSearchClienteByUsername.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2366_RealTimeNotificationIndicator_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2366_RealTimeNotificationIndicator_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2407_MRTN_frequent_and_nonfrequent_payees_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2407_MRTN_frequent_and_nonfrequent_payees_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2426_reverse_positive_pay_terms_and_conditions_dispositions_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2426_reverse_positive_pay_terms_and_conditions_dispositions_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2463_management_of_effective_date_for_real_time_payees_web_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2463_management_of_effective_date_for_real_time_payees_web_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2511_update_to_date_validations_for_the_real_time_payees_Web_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2511_update_to_date_validations_for_the_real_time_payees_Web_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2545_manage_new_payment_status_set_by_telepago_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2545_manage_new_payment_status_set_by_telepago_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2624_cca_vb_premia_images_web_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_2624_cca_vb_premia_images_web_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBC/MBC_Plus_Minus_Element.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1283_WebCustomerOtherBankAccountMessage_Comertial_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1283_WebCustomerOtherBankAccountMessage_NoTransactional_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1584_Total_Premia_Points_Acct_List_BlackDual_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1584_Total_Premia_Points_Acct_List_BlackDual_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1584_Total_Premia_Points_Acct_List_NovelIdeal_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1584_Total_Premia_Points_Acct_List_NovelIdeal_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1584_Total_Premia_Points_Acct_List_PremiaRewards_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1584_Total_Premia_Points_Acct_List_PremiaRewards_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1584_Total_Premia_Points_Acct_List_VisaNovel_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1584_Total_Premia_Points_Acct_List_VisaNovel_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1587_Eliminate_Acc_Statement_CCA_AddPremia_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1587_Eliminate_Acc_Statement_CCA_AddPremia_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1587_Eliminate_Acc_Statement_CCA_IDA_AddPremia_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1587_Eliminate_Acc_Statement_CCA_IDA_AddPremia_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1587_Eliminate_Acc_Statement_IDA_AddPremia_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1587_Eliminate_Acc_Statement_IDA_AddPremia_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1587_Eliminate_Acc_Statement_NoPremia_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1587_Eliminate_Acc_Statement_NoPremia_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1588_Eliminate_Acc_Summary_CCA_AddPremia_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1588_Eliminate_Acc_Summary_CCA_AddPremia_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1588_Eliminate_Acc_Summary_CCA_IDA_AddPremia_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1588_Eliminate_Acc_Summary_CCA_IDA_AddPremia_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1588_Eliminate_Acc_Summary_IDA_AddPremia_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1588_Eliminate_Acc_Summary_IDA_AddPremia_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1588_Eliminate_Acc_Summary_NoPremia_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1588_Eliminate_Acc_Summary_NoPremia_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1589_Premia_Redirect_Loading_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1589_Premia_Redirect_Loading_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1629_WebRedemption_AccDeposit_AccountTypeIDACashRewards_CommercialCustomer_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1629_WebRedemption_AccDeposit_AccountTypeIDACashRewards_CommercialCustomer_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1629_WebRedemption_AccDeposit_AccountTypeIDACashRewards_RetailCustomer_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1629_WebRedemption_AccDeposit_AccountTypeIDACashRewards_RetailCustomer_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1629_WebRedemption_AccDeposit_AccountTypeIDACashRewards_WealthCustomer_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1629_WebRedemption_AccDeposit_AccountTypeIDACashRewards_WealthCustomer_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1629_WebRedemption_StatementCredit_CashRewards_CommercialCustomer_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1629_WebRedemption_StatementCredit_CashRewards_CommercialCustomer_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1629_WebRedemption_StatementCredit_CashRewards_RetailCustomer_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1629_WebRedemption_StatementCredit_CashRewards_RetailCustomer_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1649_ActivateDeactivate_JetBlueCard_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1649_ActivateDeactivate_JetBlueCard_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1649_ActivateDeactivate_JetBlueEleva_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1649_ActivateDeactivate_JetBlueEleva_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1649_ActivateDeactivate_JetBlueMastercard_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1649_ActivateDeactivate_JetBlueMastercard_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1728_CSR_New_menu_Link_Admin_Center.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1728_CSR_New_menu_Link_Admin_Center_Supervisor.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1728_CSR_New_menu_Link_Admin_Center_User.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1820_Update_Commercial_SSOKey.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1820_Update_Retail_SSOKey.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1826_Hide_Ghost_Account_FromMBPortal_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCA/MBCA_1826_Hide_Ghost_Account_FromMBPortal_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCE/MBCE_25366_MBWeb_AddNewAccountToDelegateAccount_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCI/MBCI_0001_47311_Make_Payments_One_Payment_from_DDA_to_Multiple_Payees_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCI/MBCI_0002_46032_Make_Payments_One_Payment_from_DDA_to_Multiple_Payees_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCI/MBCI_0003_45637_Add_Payees_Common_Payees_Utilities_Payee_with_Image_AAA_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCI/MBCI_0004_46017_Add_Payees_Common_Payees_Utilities_Payee_with_Image_AAA_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCI/MBCI_0005_45933_Add_Payees_Common_Payees_Utilities_Payee_with_Image_AEE_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBCI/MBCI_0006_45785_Add_Payees_Common_Payees_Utilities_Payee_with_Image_AEE_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2226_WebCustomerCode047ForeignCustomerWithInvalidSSNWarningTextModificationEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2226_WebCustomerCode047ForeignCustomerWithInvalidSSNWarningTextModificationES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2583_OAO_IdentificationInfo_CustomerApplicationFormRedesign_VerifyButtonsNavigationEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2583_OAO_IdentificationInfo_CustomerApplicationFormRedesign_VerifyButtonsNavigationES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2584_OAO_ContactInfo_CustomerApplicationFormRedesign_VerifyButtonsNavigationEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2584_OAO_ContactInfo_CustomerApplicationFormRedesign_VerifyButtonsNavigationES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2584_OAO_ContactInfo_CustomerApplicationFormRedesign_VerifyFieldEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2584_OAO_ContactInfo_CustomerApplicationFormRedesign_VerifyFieldES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2585_OAO_EmploymentInfo_CustomerApplicationFormRedesign_VerifyErrorsOnFieldsEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2585_OAO_EmploymentInfo_CustomerApplicationFormRedesign_VerifyErrorsOnFieldsES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2585_OAO_EmploymentInfo_CustomerApplicationFormRedesign_VerifyFieldsEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2585_OAO_EmploymentInfo_CustomerApplicationFormRedesign_VerifyFieldsES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2585_OAO_EmploymentInfo_CustomerApplicationFormRedesign_VerifyNavigationsEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2585_OAO_EmploymentInfo_CustomerApplicationFormRedesign_VerifyNavigationsES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2586_OAO_EnrollmentInfo_CustomerApplicationFormRedesign_VerifyFieldsEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2586_OAO_EnrollmentInfo_CustomerApplicationFormRedesign_VerifyFieldsES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2586_OAO_EnrollmentInfo_CustomerApplicationFormRedesign_VerifyNavigationsEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2586_OAO_EnrollmentInfo_CustomerApplicationFormRedesign_VerifyNavigationsES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2604_OAO_ContactInfo_AddressValidations_CustomerApplicationFormRedesignEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2604_OAO_ContactInfo_AddressValidations_CustomerApplicationFormRedesignES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2627_OAO_IdentificationInfoUpdate_CustomerApplicationFormRedesign_VerifyErrorsOnInputFieldsEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2627_OAO_IdentificationInfoUpdate_CustomerApplicationFormRedesign_VerifyErrorsOnInputFieldsES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2627_OAO_IdentificationInfoUpdate_CustomerApplicationFormRedesign_VerifyFieldEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2627_OAO_IdentificationInfoUpdate_CustomerApplicationFormRedesign_VerifyFieldES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2633_OAO_KBADisplayPlaceholderEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2633_OAO_KBADisplayPlaceholderES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2639_NewAccountOpeningStepsProgressAndBanner_VerifyProgressEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2639_NewAccountOpeningStepsProgressAndBanner_VerifyProgressES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2640_OAO_UsernameReservationSuggestions_VerifySuggestionsEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2640_OAO_UsernameReservationSuggestions_VerifySuggestionsES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2641_OAO_UsernameReservation_VerifyErrorsOnFieldsEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2641_OAO_UsernameReservation_VerifyErrorsOnFieldsES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2688_NewAccountOpeningStepsBanner_Mobile_VerifyProgressEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2688_NewAccountOpeningStepsBanner_Mobile_VerifyProgressES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2743_OAO_UsernameReservationUpdates_VerifySuggestionsEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2743_OAO_UsernameReservationUpdates_VerifySuggestionsES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2744_OAO_DateOfBirthParameterLimitPersonalInfoEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2744_OAO_DateOfBirthParameterLimitPersonalInfoES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2745_MBDP_2598_OAO_DCIScreenReplacementCancelOptionEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2745_MBDP_2598_OAO_DCIScreenReplacementCancelOptionES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2745_MBDP_2598_OAO_DCIScreenReplacementEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2745_MBDP_2598_OAO_DCIScreenReplacementES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2745_MBDP_2599_OAO_TermsAndConds_ReplacementEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2745_MBDP_2599_OAO_TermsAndConds_ReplacementES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2745_MBDP_2599_OAO_TermsAndConds_Replacement_CancelOptionEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2745_MBDP_2599_OAO_TermsAndConds_Replacement_CancelOptionES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2763_NewAccountOpeningStepsBanner_Web_VerifyProgressEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2763_NewAccountOpeningStepsBanner_Web_VerifyProgressES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2804_ApplicationCreationAtQueueEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2812_TimeOut.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2823_NewClientAccountConfirmationScreenReferred.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2849_DriversLicenseIDPassportIDdataEntryRestrictionsEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2849_DriversLicenseIDPassportIDdataEntryRestrictionsES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2855_IDComboBoxAndOutputEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2855_IDComboBoxAndOutputES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2904_MiBancoUserRegistrationApproveApprovedByOfficerEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2904_MiBancoUserRegistrationApproveApprovedByOfficerES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2927_CancelButtonPopUpMessageEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2927_CancelButtonPopUpMessageES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2990_KBAsCustomComboBoxOptionEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_2990_KBAsCustomComboBoxOptionES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_CSR_Queue_verification.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_ContactInfo_Fill_Fields.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_DCI_Fill_Fields.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_EmploymentInfo_Fill_Fields.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_EnrollmentInfo_Fill_Fields.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_IdentificationInfo_Fill_Fields_ByLicense.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_IdentificationInfo_Fill_Fields_ByPassport.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_KBA_Questions.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_PersonalInfo_Fill_Fields.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBDP/MBDP_VerifyInfo_Fill_Fields.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBAddRSAQuestions.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_212_CSRTool_RSAQuestions.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_213_CSRTool_UnblockCustomer.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_21_MBWeb_BlockedSectionsFromAccountMenu_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_21_MBWeb_BlockedSectionsFromAccountMenu_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_22_MBWeb_BlockedSectionsHidePaymentsAndPfm_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_22_MBWeb_BlockedSectionsHidePaymentsAndPfm_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_23_MBWeb_BlockedSectionsTransfer_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_23_MBWeb_BlockedSectionsTransfer_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_25_MBWeb_BlockedSectionsMakeAQuickPayment_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_25_MBWeb_BlockedSectionsMakeAQuickPayment_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_2_CSRTool_CustomerEnrollmentSecuritiesRole.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_308_MBWeb_HideBalanceAlert_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_308_MBWeb_HideBalanceAlert_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_71_CSRTool_Log.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_767_MBiOS_CSRTool_RetirementBalanceDowntime_DeactivateTheButton_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_768_MBAndroid_CSRTool_RetirementBalanceDowntime_ActivateTheButton_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_809_MBWeb_Retirement_Plan_Downtime_Message_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_809_MBWeb_Retirement_Plan_Downtime_Message_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_842_MBWeb_RetirementPlanNewDisclaimer_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_842_MBWeb_RetirementPlanNewDisclaimer_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_2_MB_CrearPerfilDeTelepago_PaymentComercialProfileWithTelepago_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_2_MB_CrearPerfilDeTelepago_PaymentRetailProfileWithTelepago_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_2_MB_CrearPerfilDeTelepago_PaymentWealthProfileWithTelepago_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_2_MB_CrearPerfilDeTelepago_TransferComercialWithTelepago_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_2_MB_CrearPerfilDeTelepago_TransferRetailWithTelepago_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_2_MB_CrearPerfilDeTelepago_TransferWealthWithTelepago_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_61_MB_GDPR_OptOut_fase_2_Banner_Web_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_61_MB_GDPR_OptOut_fase_2_Banner_Web_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_64_MB_FixMostrarPlanesDeRetiroIndividualmenteWeb_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_64_MB_FixMostrarPlanesDeRetiroIndividualmenteWeb_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_64_MB_MostrarPlanesDeRetiroIndividualmente_PlanId96_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_64_MB_MostrarPlanesDeRetiroIndividualmente_PlanId96_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_64_MB_MostrarPlanesDeRetiroIndividualmente_PlanId97_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_64_MB_MostrarPlanesDeRetiroIndividualmente_PlanId97_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_91_MB_cambiar_titulo_del_empleado_en_Mi_Banco_Wealth_Management_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_91_MB_cambiar_titulo_del_empleado_en_Mi_Banco_Wealth_Management_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_91_MB_cambiar_titulo_del_empleado_en_Mi_Banco_Wealth_Management_Users_with_title_senior_private_banker_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBFM/MBFM_91_MB_cambiar_titulo_del_empleado_en_Mi_Banco_Wealth_Management_Users_with_title_senior_private_banker_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBLoginUser.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBLoginUserGeneric.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1335_Android_EditPurchasesAndWithdrawalsWithMyAth_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1335_Android_EditPurchasesAndWithdrawalsWithMyAth_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1420_DeviceManagementConfigurationInMiBancoOnlineProfileNotSubscribedToPushNotifications_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1420_DeviceManagementConfigurationInMiBancoOnlineProfileNotSubscribedToPushNotifications_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1420_DeviceManagementConfigurationInMiBancoOnline_ProfileSubscribedToPushNotifications_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1420_DeviceManagementConfigurationInMiBancoOnline_ProfileSubscribedToPushNotifications_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1519_Android_PreFillAmountForCCAAlertsEN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1719_PushHistoryInMiBancoOnline_Balance_BalanceIsLessThan_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1719_PushHistoryInMiBancoOnline_Balance_BalanceIsLessThan_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1719_PushHistoryInMiBancoOnline_InternetPaymentsAndTransfers_MakingAPayment_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1719_PushHistoryInMiBancoOnline_InternetPaymentsAndTransfers_MakingAPayment_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1719_PushHistoryInMiBancoOnline_PersonalInformation_EmailUpdated_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1719_PushHistoryInMiBancoOnline_PersonalInformation_EmailUpdated_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1719_PushHistoryInMiBancoOnline_PersonalInformation_PhoneNumberUpdated_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_1719_PushHistoryInMiBancoOnline_PersonalInformation_PhoneNumberUpdated_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2046_BalanceAmountDisplayedInMiBanco_Android_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2046_BalanceAmountDisplayedInMiBanco_Android_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2144_Android_EnablePushNotificationsRegardlessOfAlertsConfiguredEnablePushToggle_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2144_Android_EnablePushNotificationsRegardlessOfAlertsConfiguredTurnOffPushToggle _ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2389_AmountDisclaimerMiBancoOnline_BalanceAlerts_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2389_AmountDisclaimerMiBancoOnline_BalanceAlerts_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2389_AmountDisclaimerMiBancoOnline_PurchasesAndWithdrawalsWithATHAlerts_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2389_AmountDisclaimerMiBancoOnline_PurchasesAndWithdrawalsWithATHAlerts_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2389_AmountDisclaimerMiBancoOnline_PurchaseswithCCAAlerts_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2389_AmountDisclaimerMiBancoOnline_PurchaseswithCCAAlerts_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2402_EliminateDuplicateAlertDueToRSA_BalanceAlerts_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2402_EliminateDuplicateAlertDueToRSA_BalanceAlerts_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2402_EliminateDuplicateAlertDueToRSA_InternetPaymentsAndTransfersAlerts_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2402_EliminateDuplicateAlertDueToRSA_InternetPaymentsAndTransfersAlerts_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2402_EliminateDuplicateAlertDueToRSA_PersonalInfoAlerts_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2402_EliminateDuplicateAlertDueToRSA_PersonalInfoAlerts_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2435_Android_PushCcaAlertsJointOrRelation_SmsActive_EnablePushOnMobile_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2435_PushCcaAlertsJointOrRelation_SaveAlertOnMiBancoWeb_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2435_PushCcaAlertsJointOrRelation_SaveAlertOnMiBancoWeb_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2489_RemovePhoneNumberMessageMiBancoWeb_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2489_RemovePhoneNumberMessageMiBancoWeb_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2530_CCAAmountDisplayedInMiBanco_Android_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2530_CCAAmountDisplayedInMiBanco_Android_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2531_DDAAmountDisplayedInMiBanco_Android_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_2531_DDAAmountDisplayedInMiBanco_Android_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBM_Android_EditBalanceEmailAlert_ProfileOnlyWithDDAWithout2StepVerification_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBM/MBMakePayments.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_AutoLoan_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_AutoLoan_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_CD_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_CD_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_ECA_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_IRA_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_IRA_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_Mortgage_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_Mortgage_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_MulticuentaAccount_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_MulticuentaAccount_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_PersonalLoan_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_PersonalLoan_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_PremiaAccount_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_PremiaAccount_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_ReserveAccount_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_ReserveAccount_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_SavingsAccount_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_AccountSummary_SavingsAccount_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_HomePortalLinks_Blog_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_HomePortalLinks_GreenBox_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_HomePortalLinks_Help_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_LogIn_InvalidPasswordTooltip_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_LogIn_Valid_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_LogIn_Valid_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_MakePayments_LVA_LeaseAccountregisteredasPayee_SinglePaymentwithBPPRaccount_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_MakeTransfers_OneTime_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_MakeTransfers_UIInspection_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_QuickPayments_FromCCA_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_QuickPayments_FromDDA_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_QuickPayments_FromSAV_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBQA/MB_QuickPayments_UIInspection_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/CSRDeleteMobileEnrollment.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3756_CSRTool_CustomersAlerts_ActivePurchasesAndWithdrawalSMSAlerts_GeneralMode.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3756_CSRTool_CustomersAlerts_ActivePurchasesAndWithdrawalSMSAlerts_IndividualMode.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3756_CSRTool_CustomersAlerts_LoadingIconAccountNumberColumn.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3759_RSAChallengeAddPayeeEbillChangeEmail_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3806_Cookies_Banner_Web_Login_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3806_Cookies_Banner_Web_Login_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3807_Cookies_Update_Terms_And_Conditions_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3807_Cookies_Update_Terms_And_Conditions_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_AlertsUser.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_CDDQualityControl.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_FRDAnalyst.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_FRDSupervisor.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_FRDUser.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_WebSupport.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_administrator.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_commercialOperations.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_disbursement.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_inquiry.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_manager.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_mortgage.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_popularSecurities.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_supervisor.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_link_to_customer_enrollment_page_exist_rol_user.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_negative_case_verify_that_the_links_do_not_exist_rol_CCAUser.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_negative_case_verify_that_the_links_do_not_exist_rol_DisbursementAdmin.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3865_negative_case_verify_that_the_links_do_not_exist_rol_ISTechnician.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3866_Verify_that_the_provider_combo_is_deleted_Lenguaje_EN.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSD/MBSD_3866_Verify_that_the_provider_combo_is_deleted_Lenguaje_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSE/MBSE_1636_Notification_Center_Nuevas_Notificaciones.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSE/MBSE_1925_Verfy_PCAS_Notification_Center.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSE/MBSE_1990_Mi_Banco_Regain_Access.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSE/MBSE_1992_Mejoras_Customer_Log_ES.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSE/MBSE_2076_Customer_Search_By_Username.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSE/MBSE_2076_MiBancoEntitlementForB_Smart.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSE/MBSE_2141_MiBanco_2_Step_Verification_History_Log.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSE/MBSE_2176_Filter_Events_History_Logs_Vault.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSE/MBSE_2178_Filter_Events_History_Logs_Vault.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSE/MBSE_2206_CSR_Anadir_segmentos_de_clientes_en_My_Messages.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/features/MBSE/MBSE_4_Verify_PCAS_Location.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CRSCustomersEnrollment.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CRSMobileEnrollment.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRAdminCenter.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRBlocksAndCounters.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRClientInformation.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRClientSearch.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRCustomerAlerts.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRCustomerUpdates.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRDelete.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRDownTimeManagement.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRHistoryLogs.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRLeftMenu.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRLogin.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRModifyUser.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRMyMessages.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSROnlineAccountOpeningServices.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRPremiaCert.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/CSRRSADelete.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MBDP-DCI.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MBDP-IVP-ContactInformation.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MBDP-IVP-EmploymentInformation.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MBDP-IVP-EnrollmentInformation.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MBDP-IVP-Header.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MBDP-IVP-IdentificationInformation.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MBDP-IVP-MobileHeader.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MBDP-IVP-PersonalInformation.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MBDP-IVP-VerifyInformation.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MBDP-KBA.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MBDP-TermsAndConds.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MBSD-CSRCustomerAlerts.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoAccountDetail.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoAccountStatement.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoAccountStatements.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoAccountSummary.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoAddAccounts.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoAddOtherBankAccount.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoAddPayee.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoAlertHistory.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoAlertTypes.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoCalendarMakePayment.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoCashReward.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoCashRewardRedemptionSuccess.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoCashRewardRedemptionView.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoCommercialServices.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoCreditCardSection.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoEditAccount.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoEditPayee.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoHeaderMenu.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoHistoryPayments.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoHomePage.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoHomeTemporaryObjects.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoLeftMenu.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoLogin.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoMakeFrequentPayment.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoMakePayment.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoMakeTransfers.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoMenu.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoMobile.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoMyInformation.xls" beforeDir="false" afterPath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/HiveEmployeesLogIn.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoOpenAccount.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoPortal.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoSecurityQuestions.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoTransactions.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository/MiBancoTransfersHistory.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBCAFeatures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBCEFeatures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBCFeatures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBCIFeatures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBFISFeatures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBFISFeaturesCrossBrowser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBFMFeatures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBMFeatures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBQAFeatures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBQA_cert_pipeline.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBQA_cert_smoke.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBQA_develop_pipeline.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBQA_develop_smoke.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBQA_lastreleased_pipeline.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBQA_lastreleased_smoke.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBQA_release1_pipeline.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBQA_release1_smoke.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBQA_release_pipeline.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBQA_release_smoke.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBSDFeatures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBSDFeaturesCrossBrowser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/testsuites/MBSEFeatures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2374_Calendar_Management_for_Real_Time_Notifications_Android_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2374_Calendar_Management_for_Real_Time_Notifications_Android_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2512_management_of_effective_date_for_real_time_payees_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2512_management_of_effective_date_for_real_time_payees_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2512_management_of_effective_date_for_real_time_payees_ES.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2512_management_of_effective_date_for_real_time_payees_ES.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2560_manage_new_real_time_payment_status_in_receipt_Sent_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2560_manage_new_real_time_payment_status_in_receipt_Sent_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2560_manage_new_real_time_payment_status_in_receipt_enviados_ES.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2560_manage_new_real_time_payment_status_in_receipt_enviados_ES.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2560_manage_new_real_time_payment_status_in_receipt_processing_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2560_manage_new_real_time_payment_status_in_receipt_processing_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2560_manage_new_real_time_payment_status_in_receipt_processing_ES.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBC/Android_MBC_2560_manage_new_real_time_payment_status_in_receipt_processing_ES.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCA/Android_MBCA_1629_ConfigureRedemption_AcctDepositCreditCardPrimary_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCA/Android_MBCA_1629_ConfigureRedemption_AcctDepositCreditCardPrimary_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCA/Android_MBCA_1629_ConfigureRedemption_AcctDepositCreditCardPrimary_ES.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCA/Android_MBCA_1629_ConfigureRedemption_AcctDepositCreditCardPrimary_ES.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCA/Android_MBCA_1629_ConfigureRedemption_StatementCreditCreditCardPrimary_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCA/Android_MBCA_1629_ConfigureRedemption_StatementCreditCreditCardPrimary_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCA/Android_MBCA_1629_ConfigureRedemption_StatementCreditCreditCardPrimary_ES.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCA/Android_MBCA_1629_ConfigureRedemption_StatementCreditCreditCardPrimary_ES.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_14_android_marketPlaceProducts_nonTransactional_negativo_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_14_android_marketPlaceProducts_nonTransactional_negativo_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_16_android_marketplaceMenu_RetailCustomerBank001PR_CCA_ES.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_16_android_marketplaceMenu_RetailCustomerBank001PR_CCA_ES.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_16_android_marketplaceMenu_RetailCustomerBank001PR_IDACCALoans_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_16_android_marketplaceMenu_RetailCustomerBank001PR_IDACCALoans_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_16_android_marketplaceMenu_RetailCustomerBank002USVI_IDA_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_16_android_marketplaceMenu_RetailCustomerBank002USVI_IDA_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_16_android_marketplaceMenu_RetailCustomerBank006Culebra_IDA_ES.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_16_android_marketplaceMenu_RetailCustomerBank006Culebra_IDA_ES.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_16_android_marketplaceMenu_WealthCustomerBank001PR_IDACCALoans_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_16_android_marketplaceMenu_WealthCustomerBank001PR_IDACCALoans_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_16_android_marketplaceMenu_WealthCustomerBank001PR_IDACCALoans_ES.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBCCA/MBCC_16_android_marketplaceMenu_WealthCustomerBank001PR_IDACCALoans_ES.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBFIS/Android_MBFIS_461_MBAndroidRedirectToRetirementPlanPlatformAllAccounts_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBFIS/Android_MBFIS_461_MBAndroidRedirectToRetirementPlanPlatformAllAccounts_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBFIS/Android_MBFIS_768_MBAndroid_CSRTool_RetirementBalanceDowntime_ActivateTheButton_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBFIS/Android_MBFIS_768_MBAndroid_CSRTool_RetirementBalanceDowntime_ActivateTheButton_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_767_MBiOS_CSRTool_RetirementBalanceDowntime_DeactiveTheButton_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_767_MBiOS_CSRTool_RetirementBalanceDowntime_DeactiveTheButton_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_767_MBiOS_CSRTool_RetirementBalanceDowntime_DeactiveTheButton_ES.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBFIS/MBFIS_767_MBiOS_CSRTool_RetirementBalanceDowntime_DeactiveTheButton_ES.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBM/Android_MBIM_259_ChangeLanguageAndroidOreoOrHigherInsideSection_ES.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBM/Android_MBIM_259_ChangeLanguageAndroidOreoOrHigherInsideSection_ES.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBM/Android_MBIM_259_ChangeLanguageAndroidSmallerThanOreoWithoutLogin_EN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBM/Android_MBIM_259_ChangeLanguageAndroidSmallerThanOreoWithoutLogin_EN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBM/Android_MBM_2435_PushCcaAlertsJointOrRelation_SmsActive_EnablePushOnMobile_ES.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBM/Android_MBM_2435_PushCcaAlertsJointOrRelation_SmsActive_EnablePushOnMobile_ES.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBQA/FFAndroidCIBPMBSFE306RegainAccessForgotPasswordChangesMessagesIDAEN.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBQA/FFAndroidCIBPMBSFE306RegainAccessForgotPasswordChangesMessagesIDAEN.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBQA/IOSRetiroMovilEnrollmentNonCustomerDevicePasscodeNotConfiguredSpanish.xls" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/src/test/resources/features/MBQA/IOSRetiroMovilEnrollmentNonCustomerDevicePasscodeNotConfiguredSpanish.xls" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Z2MJGjY2RwrtAuhxMTH9Dfp5BR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/keyword-test-automation-framework/src/test/resources/objectrepository" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User.DESKTOP-RT4P2IR\Documents\testing-automation-framework-20201124T232857Z-001\testing-automation-framework\keyword-test-automation-framework\src\test\resources\objectrepository" />
+      <recent name="C:\Users\User.DESKTOP-RT4P2IR\Documents\testing-automation-framework-20201124T232857Z-001\testing-automation-framework\keyword-test-automation-framework\src\test\resources\features\Hive" />
+      <recent name="C:\Users\User.DESKTOP-RT4P2IR\Documents\testing-automation-framework-20201124T232857Z-001\testing-automation-framework\keyword-test-automation-framework\src\test\resources\data" />
+      <recent name="C:\Users\Administrador\git\testing-automation-framework\keyword-test-automation-framework\src\test\resources\features\MBDP" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AFABFramework.HIVEE_CreateNewOpportunity">
+    <configuration name="AFABFramework.HIVEE_CreateNewOpportunity" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="keyword-test-automation-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework" />
+      <option name="MAIN_CLASS_NAME" value="framework.AFABFramework" />
+      <option name="METHOD_NAME" value="HIVEE_CreateNewOpportunity" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AFABFramework.HIVES_Apply" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="keyword-test-automation-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework" />
+      <option name="MAIN_CLASS_NAME" value="framework.AFABFramework" />
+      <option name="METHOD_NAME" value="HIVES_Apply" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AFABFramework.HIVES_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="keyword-test-automation-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework" />
+      <option name="MAIN_CLASS_NAME" value="framework.AFABFramework" />
+      <option name="METHOD_NAME" value="HIVES_Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AFABFramework.HIVES_Logout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="keyword-test-automation-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework" />
+      <option name="MAIN_CLASS_NAME" value="framework.AFABFramework" />
+      <option name="METHOD_NAME" value="HIVES_Logout" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AFABFramework.HIVES_SingIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="keyword-test-automation-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework" />
+      <option name="MAIN_CLASS_NAME" value="framework.AFABFramework" />
+      <option name="METHOD_NAME" value="HIVES_SingIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AFABFramework.HIVEE_CreateNewOpportunity" />
+        <item itemvalue="TestNG.AFABFramework.HIVES_ApplyForOpportinitie" />
+        <item itemvalue="TestNG.AFABFramework.HIVES_Login" />
+        <item itemvalue="TestNG.AFABFramework.HIVES_SingIn" />
+        <item itemvalue="TestNG.AFABFramework.HIVES_Logout" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5b50a2c-2912-4a05-a70b-afa612209007" name="Default Changelist" comment="" />
+      <created>1584032663711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584032663711</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

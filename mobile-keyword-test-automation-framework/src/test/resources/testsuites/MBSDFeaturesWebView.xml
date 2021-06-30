@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KeywordFramework" verbose="10" parallel="tests" thread-count="1">
+	<parameter name="screenshotSetting" value="OnAllSteps"></parameter>
+
+	<test name="Android WebView Test">
+		<parameter name="kobitonServerUrl" value="http://127.0.0.1:4723/wd/hub"></parameter>
+		<parameter name="deviceGroup" value="ORGANIZATION"></parameter>
+		<parameter name="testName" value="AndroidWebViewTest"></parameter>
+		<parameter name="browserName" value="chrome"></parameter>
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="platformVersion" value="8.1"></parameter>
+
+		<groups>
+			<run>
+				<include name="MBSD-3807-WebView"/>
+				<exclude name=".*debug.*"/>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="framework.MBSDMobileKeywordFramework" />
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>

@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KeywordFramework" verbose="10" parallel="tests"
+	thread-count="2">
+	<parameter name="kobitonServerUrl"
+		value="https://sdominguez:d8aaa84c-950a-4b61-8088-7821396b299b@api.kobiton.com/wd/hub"></parameter>
+	<parameter name="deviceGroup" value="ORGANIZATION"></parameter>
+	<parameter name="screenshotSetting" value="OnAllSteps"></parameter>
+
+	<test name="iOSTest">
+        <!-- KOBITON -->
+        <parameter name="testName" value="MBQATest"></parameter>
+        <parameter name="app" value="kobiton-store:53457"/>
+        <parameter name="deviceName" value="iPhone XR"></parameter>
+        <parameter name="platformName" value="iOS"></parameter>
+        <parameter name="platformVersion" value="13.1.2"></parameter>
+
+        <groups>
+            <run>
+                <include name="regression.cibp.enrollmentchsav.ios"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="framework.MBQAMobileKeywordFramework"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+</suite>

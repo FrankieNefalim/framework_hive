@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EvertekFramework.iml" filepath="$PROJECT_DIR$/EvertekFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-keyword-test-automation-framework/core-keyword-test-automation-framework.iml" filepath="$PROJECT_DIR$/core-keyword-test-automation-framework/core-keyword-test-automation-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/keyword-test-automation-framework/keyword-test-automation-framework.iml" filepath="$PROJECT_DIR$/keyword-test-automation-framework/keyword-test-automation-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-keyword-test-automation-framework/mobile-keyword-test-automation-framework.iml" filepath="$PROJECT_DIR$/mobile-keyword-test-automation-framework/mobile-keyword-test-automation-framework.iml" />
+    </modules>
+  </component>
+</project>

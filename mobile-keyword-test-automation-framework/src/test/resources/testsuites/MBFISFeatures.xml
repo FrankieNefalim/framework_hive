@@ -1,0 +1,61 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KeywordFramework" verbose="10" parallel="tests" thread-count="1">
+	<parameter name="screenshotSetting" value="OnAllSteps"></parameter>
+	<parameter name="kobitonServerUrl" value="http://127.0.0.1:4723/wd/hub"></parameter>
+	<parameter name="deviceGroup" value="ORGANIZATION"></parameter>
+
+	<test name="AndroidTest">
+		<!-- EMULATOR DEVICE -->
+		<parameter name="testName" value="MBFISTest"></parameter>
+		<parameter name="app" value="C:\Git\testing-automation-framework\mobile-keyword-test-automation-framework\src\test\resources\apk\MiBanco-debug-3.3.1-6565.apk"></parameter>
+		<!--<parameter name="deviceName" value="Pixel_XL_API_29"></parameter>-->
+		<parameter name="deviceName" value="Nexus_6P_API_29"></parameter>
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="platformVersion" value="10.0"></parameter>
+		<parameter name="autoGrantPermissions" value="true"></parameter>
+		<parameter name="appWaitActivity" value="com.popular.android.mibanco.IntroScreen,com.popular.android.mibanco.activity.EnterUsername"></parameter>
+
+		<groups>
+			<run>
+				<include name="MBFIS-82" />
+				<exclude name="MBFIS-461" />
+				<include name="MBFIS-640" />
+				<exclude name="MBFIS-768" />
+				<include name="MBFIS-810" />
+				<include name="MBFIS-841" />
+				<include name="MBFIS-883" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="framework.MBFISMobileKeywordFramework" />
+		</classes>
+	</test>
+
+	<test name="iOSTest">
+		<!-- KOBITON -->
+		<parameter name="testName" value="MBFISTest"></parameter>
+		<parameter name="kobitonServerUrl" value="https://colguin:713e76d4-24e5-4698-a083-d7d3d4a86b35@api.kobiton.com/wd/hub"></parameter>
+		<parameter name="app" value="kobiton-store:54236" />
+		<parameter name="deviceName" value="iPhone 8"></parameter>
+		<parameter name="platformName" value="iOS"></parameter>
+		<parameter name="platformVersion" value="11.0.3"></parameter>
+
+		<groups>
+			<run>
+				<include name="MBFIS-639" />
+				<include name="MBFIS-767" />
+				<include name="MBFIS-840" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="framework.MBFISMobileKeywordFramework" />
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>

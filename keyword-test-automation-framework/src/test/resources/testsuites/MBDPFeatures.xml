@@ -1,0 +1,77 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KeywordFramework" verbose="10" parallel="methods" thread-count="6">
+    <parameter name="driver" value="web"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="screenshotSetting" value="true"></parameter>
+
+    <!--parameter name="custom_capabilities" value="capabilities/chrome.properties"/>
+    <parameter name="mobileEmulation" value="false"></parameter>
+    <parameter name="deviceName" value="Galaxy S5"></parameter-->
+
+
+    <test name="MiBancoMBDPTest">
+        <parameter name="env" value="MBDPTESTING"></parameter>
+        <parameter name="runHeadless" value="true"></parameter>
+        <groups>
+            <run>
+                <include name="MBDP_2226"/>
+                <include name="MBDP_2583"/>
+                <include name="MBDP_2584"/>
+                <include name="MBDP_2585"/>
+                <include name="MBDP_2586"/>
+                <include name="MBDP_2604"/>
+                <include name="MBDP_2627"/>
+                <include name="MBDP_2633"/>
+                <include name="MBDP_2639"/>
+                <include name="MBDP_2641"/>
+                <include name="MBDP_2640"/>
+                <include name="MBDP_2743"/>
+                <include name="MBDP_2744"/>
+                <include name="MBDP_2745"/>
+                <include name="MBDP_2763"/>
+                <include name="MBDP_2804"/>
+                <include name="MBDP_2823"/>
+                <include name="MBDP_2855"/>
+                <include name="MBDP_2812"/>
+                <include name="MBDP_2990"/>
+
+            </run>
+        </groups>
+        <classes>
+            <class name="framework.MBDPKeywordFramework"/>
+        </classes>
+    </test>
+
+    <test name="MiBancoMBDPTest-HeadlessModeOff">
+        <parameter name="env" value="MBDPTESTING"></parameter>
+        <parameter name="runHeadless" value="false"></parameter>
+        <groups>
+            <run>
+                <include name="MBDP_2745_HeadlessModeOff"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="framework.MBDPKeywordFramework"/>
+        </classes>
+    </test>
+
+    <test name="MiBancoMBDPTest - Chrome iPhone X">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="environment" value="MBDPTESTING"></parameter>
+        <parameter name="mobileEmulation" value="true"></parameter>
+        <parameter name="deviceName" value="iPhone X"></parameter>
+        <groups>
+            <run>
+                <include name="MBDP_2688"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="framework.MBDPKeywordFramework"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+</suite>

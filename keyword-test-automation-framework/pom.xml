@@ -1,0 +1,316 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>EvertekFramework</artifactId>
+        <groupId>EvertekFramework</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>web</artifactId>
+    <packaging>jar</packaging>
+    <name>web</name>
+
+    <build>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+            </testResource>
+        </testResources>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M3</version>
+                <configuration>
+                    <properties>
+                        <property>
+                            <name>surefire.testng.verbose</name>
+                            <value>10</value>
+                        </property>
+                        <property>
+                            <name>listener</name>
+                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+                        </property>
+                    </properties>
+
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/testsuites/MBQA_release1_pipeline.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>EvertekFramework</groupId>
+            <artifactId>core</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>EvertekFramework</groupId>
+            <artifactId>core</artifactId>
+            <version>${project.parent.version}</version>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl -->
+        <dependency>
+            <groupId>net.sourceforge.jexcelapi</groupId>
+            <artifactId>jxl</artifactId>
+            <version>2.6.12</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.3</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
+        <dependency>
+            <groupId>org.uncommons</groupId>
+            <artifactId>reportng</artifactId>
+            <version>1.1.4</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.5</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.velocity/velocity -->
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.7</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>4.2.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.7</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/htmlunit-driver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>htmlunit-driver</artifactId>
+            <version>2.36.0</version>
+        </dependency>
+
+    </dependencies>
+	
+	<profiles>
+		<profile>
+			<id>development</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M3</version>
+						<executions>
+							<execution>
+								<id>default-test</id>
+								<phase>none</phase>
+							</execution>
+						   <execution>
+								<id>integration-tests-dev</id>
+								<phase>integration-test</phase>
+								<goals>
+									<goal>test</goal>
+								</goals>
+								<configuration>
+									<properties>
+										<property>
+											<name>surefire.testng.verbose</name>
+											<value>10</value>
+										</property>
+										<property>
+											<name>listener</name>
+											<value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+										</property>
+									</properties>
+
+									<suiteXmlFiles>
+										<suiteXmlFile>src/test/resources/testsuites/MBQA_develop_pipeline.xml</suiteXmlFile>
+									</suiteXmlFiles>
+								</configuration>
+						   </execution>
+						</executions>
+						
+					</plugin>									
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>release1</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M3</version>
+						<executions>
+							<execution>
+								<id>default-test</id>
+								<phase>none</phase>
+							</execution>
+						   <execution>
+								<id>integration-tests-release1</id>
+								<!--phase>test</phase-->
+								<goals>
+									<goal>test</goal>
+								</goals>
+								<configuration>
+									<properties>
+										<property>
+											<name>surefire.testng.verbose</name>
+											<value>10</value>
+										</property>
+										<property>
+											<name>listener</name>
+											<value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+										</property>
+									</properties>
+
+									<suiteXmlFiles>
+										<suiteXmlFile>src/test/resources/testsuites/MBQA_release1_pipeline.xml</suiteXmlFile>
+									</suiteXmlFiles>
+								</configuration>
+						   </execution>
+						</executions>						
+					</plugin>									
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>release</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M3</version>
+						<executions>
+							<execution>
+								<id>default-test</id>
+								<phase>none</phase>
+							</execution>
+						   <execution>
+								<id>integration-tests-release</id>
+								<phase>integration-test</phase>
+								<goals>
+									<goal>test</goal>
+								</goals>
+								<configuration>
+									<properties>
+										<property>
+											<name>surefire.testng.verbose</name>
+											<value>10</value>
+										</property>
+										<property>
+											<name>listener</name>
+											<value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+										</property>
+									</properties>
+
+									<suiteXmlFiles>
+										<suiteXmlFile>src/test/resources/testsuites/MBQA_release_pipeline.xml</suiteXmlFile>
+									</suiteXmlFiles>
+								</configuration>
+						   </execution>
+						</executions>						
+					</plugin>									
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>lastReleased</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M3</version>
+						<executions>
+							<execution>
+								<id>default-test</id>
+								<phase>none</phase>
+							</execution>
+						   <execution>
+								<id>integration-tests-lastReleased</id>
+								<phase>integration-test</phase>
+								<goals>
+									<goal>test</goal>
+								</goals>
+								<configuration>
+									<properties>
+										<property>
+											<name>surefire.testng.verbose</name>
+											<value>10</value>
+										</property>
+										<property>
+											<name>listener</name>
+											<value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+										</property>
+									</properties>
+
+									<suiteXmlFiles>
+										<suiteXmlFile>src/test/resources/testsuites/MBQA_lastreleased_pipeline.xml</suiteXmlFile>
+									</suiteXmlFiles>
+								</configuration>
+						   </execution>
+						</executions>						
+					</plugin>									
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+
+</project>
